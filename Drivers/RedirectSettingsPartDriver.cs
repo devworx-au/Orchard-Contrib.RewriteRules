@@ -39,7 +39,7 @@ namespace Contrib.RewriteRules.Drivers {
             }
 
             return ContentShape("Parts_RewriteRules_RedirectSettings",
-                () => shapeHelper.EditorTemplate(TemplateName: "Parts/RewriteRules.RedirectSettings", Model: settings, Prefix: Prefix)).OnGroup("Rewrite Rules");
+                () => shapeHelper.EditorTemplate(TemplateName: "Parts/RewriteRules.RedirectSettings", Model: settings, Prefix: Prefix)).OnGroup("RewriteRules");
         }
     }
 }
